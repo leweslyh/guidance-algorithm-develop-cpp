@@ -1,0 +1,40 @@
+# Build outputs
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Build directory
+build/
+build-*/
+
+# IDE files
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.swp
+*.swo
+*~
+
+# Python files
+*.pyc
+__pycache__/
+
+# Simulation outputs
+simulation_results.csv
+
+# Log files
+*.log
